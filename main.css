@@ -467,7 +467,7 @@ span{
     padding: auto;
     gap: 1rem;
     margin-top: 4rem;
-     border-radius: 2rem;
+    border-radius: 2rem;
 }
 
 .performance .content-con img:hover{
@@ -752,5 +752,174 @@ span{
     }
 
 
+}
+
+/* home aboutme skill perfroman*/
+@media (max-width:460px){
+    .home{
+        flex-direction: column;
+        margin: 5rem 4rem;
+    }
+
+    .home .home-content h1{
+        font-size: 2.5rem;
+    }
+
+    .home .home-content h3{
+        font-size: 1.5rem;
+    }
+
+    .home .home-content p{
+        font-size: 1rem;
+    }
+
+    .home .home-img img{
+        width: 40vw;
+        margin-top: 4rem;
+    }
+
+    .aboutme .aboutme-content h1{
+        font-size: 2.5rem;
+    }
+
+    .aboutme .aboutme-content h3{
+        font-size: 1.5rem;
+    }
+
+    .aboutme .aboutme-content h2{
+        font-size: 2.5rem;
+    }
+
+    .aboutme .aboutme-content h4{
+        font-size: 1.5rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+
+    .aboutme .aboutme-content p{
+        font-size: 1.0rem;
+        font-weight: 400;
+        margin-bottom: 1rem;
+    }
+
+
+
+    .aboutme .aboutme-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr); 
+        align-items: center;
+        gap: 2.5rem;
+    }
+
+    .aboutme .aboutme-container .aboutme-box{
+        height: 20vh;
+        width: 90%;
+        border-radius: 3rem;
+        cursor: pointer;
+        transition: 0.3s ease;
+        margin: auto;
+    }
+
+    .aboutme-box:hover{
+        background: black;
+        color: white;
+        transform: scale(1.5);
+        border: 1px #4A90E2;
+    }
+
+    .skill h2 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 1.3;
+        padding-left: 12%;
+    }
+
+    .skill .container {
+        color: white;
+        padding: 2rem;
+        width: 90%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    .skill .container .row{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        flex-wrap: wrap;
+        gap: 1.8rem;
+    }
+
+    .skill .container .bar{
+        margin-bottom: 14px;
+        padding: 10px;
+        border-radius: 2rem;
+        background: #4A90E2;
+        transition: 0.3s ease;
+        cursor: pointer;
+    }
+
+    .skill .container .info img{
+        border-radius: 2rem;
+        width: 90px;
+        height: 50%;
+    }
+
+    .skill .container .bar:hover{
+        box-shadow: 0 10px 0px #c3d4e8;
+        transform: scale(1.03);
+    }
+
+    .skill .container .bar .info span{
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-left: 0.5rem;
+        color: white;
+    }
+    .performance h2{
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 1.3;
+    }
+
+    .performance h3{
+        font-size: 2.5rem;
+        font-weight: 700;
+        line-height: 1.3;
+        color: #4A90E2;
+    }
+
+    .performance .content-con .content-item img{
+        position: relative;
+        width: 80vw;
+        cursor: pointer;
+        padding: auto;
+        gap: 1rem;
+        margin-top: 4rem;
+        border-radius: 1rem;
+    }
+
+    .performance .content-con img:hover{
+        box-shadow: 0 10px 0px #c3d4e8;
+        transform: scale(1.03);
+    }
+
+    .performance .content-item h4{
+        padding: auto;
+        margin: 5rem;
+        font-size: 2rem;
+        font-weight: 500;
+        line-height: 1.3;
+        color: #4A90E2;
+    }
+
+    .performance .content-item p{
+        padding: auto;
+        margin: 5rem;
+        font-size: 1.5rem;
+        font-weight: 300;
+        line-height: 1.3;
+        color: white;
+    }
+    
 }
 
